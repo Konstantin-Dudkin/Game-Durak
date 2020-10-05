@@ -90,7 +90,7 @@ public class Main {
                 System.out.println("Набор карт игрока: " + playerCards);
                 System.out.println("Ваш ход, Сэр. Введите номер карты, которой хотите походить.");
 
-                moveOperationWrap = gameOperations.userMoveOperation(computerCards, playerCards, userInput.inp() - 11);
+                moveOperationWrap = gameOperations.userMoveOperation(computerCards, playerCards, userInput.inp() - 1);
                 computerCards = moveOperationWrap.getComputerCards();
                 playerCards = moveOperationWrap.getPlayerCards();
                 pl_move = moveOperationWrap.getMove();
